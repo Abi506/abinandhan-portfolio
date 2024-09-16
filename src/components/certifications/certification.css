@@ -1,0 +1,33 @@
+.front-end-skills{
+    width: 200px;
+}
+.back-end-skills{
+    width: 200px;
+}
+.other-skills{
+    width: 200px;
+}
+.certification-headings{
+    font-size: 30px;
+    color:#444;
+}
+.certification-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top:80px;
+    margin-bottom: 80px;
+    width: 100%;
+}
+@media all and (min-width:550px) {
+    .certification-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top:80px;
+        margin-bottom: 80px;
+        width: 100%;
+    }   
+}

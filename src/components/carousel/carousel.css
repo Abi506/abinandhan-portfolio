@@ -1,0 +1,36 @@
+.carousel-parent .carousel-root{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-parent {
+    display: flex;
+    justify-content: center; /* Center the carousel horizontally */
+    width: 100%; /* Full width of the parent container */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .carousel .carousel .slide img {
+    width: 100%; /* Make sure the images fill the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 1200px) {
+    .carousel-parent {
+      width: 80%; /* Adjust width for larger tablets and desktops */
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .carousel-parent {
+      width: 70%; /* Adjust width for medium tablets */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-parent {
+      width: 100%; /* Full width for mobile devices */
+    }
+  }

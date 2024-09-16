@@ -1,0 +1,137 @@
+.home-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    margin-top: 120px;
+}
+.home-about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.home-name{
+    background: #c0a631;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    padding: 3px 8px;
+    text-align: center;
+    width: 130px;
+}
+.home-profession{
+    color:#1e9fab;
+    font-size: 45px;
+    font-weight: 600;
+}
+.hire-me-button{
+    background-color:#6e57e0;
+    color:white;
+    width:120px;
+    font-weight: bold;
+    padding: 10px;
+}
+.download-Resume{
+    background: transparent;
+    border: 1px solid #6e57e0;
+    color:#6e57e0;
+    margin-left: 20px;
+}
+.social-media-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.linked-in-styles{
+    color: #0077B5 ;
+    font-size: 20px;
+    cursor: pointer;
+}
+.github-styles{
+    color: #181717;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.home-photo{
+    width:300px;
+    height: 300px;
+    margin-left: 100px;
+}
+@media all and (max-width:550px){
+    .home-section{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 20px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .profession-description{
+        font-family: Poppins, sans-serif;
+    }
+    .home-photo-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        height: 200px;
+        padding: 0px;
+        margin-top: 40px;
+        width: 100%;
+    }
+    @keyframes smoothBounce {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-4px); } /* Adjust -5px to control the height of the bounce */
+        100% { transform: translateY(0); }
+      }
+    .home-photo{
+        width: 150px;
+        height: 150px;
+        margin-right: 30px;
+        animation: smoothBounce 2s ease-in-out infinite;
+    }
+}
+.about-section{
+    text-align: center;
+}
+.scroll-button-parent{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.scroll-button{
+    color:#444;
+    background: var(--color-white);
+    border-radius: 30px;
+    bottom: 0;
+    box-shadow: 0 2px 5px 0 #00000040;
+    color: #444;
+}
+.mouse-icon{
+    color: #444;
+}
+.about-heading{
+    color: #444;
+    font-weight: 600;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.about-me-description{
+    text-align: center;
+    padding:10px
+}
+.certifications-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top:80px;
+    margin-bottom: 80px;
+    width: 100%;
+}
+.project-section{
+    text-align: center;
+}
